@@ -41,7 +41,7 @@
       </section>
       <section class="courses-section">
         <div class="cards">
-          <article>
+          <article class="card">
             <img src="img/piano.png" alt="icone de teclas de piano" />
             <strong>Piano popular</strong>
             <p>
@@ -52,7 +52,7 @@
               <img src="img/arrow-right.svg" alt="Ir pra página do curso" />
             </a>
           </article>
-          <article>
+          <article class="card">
             <img src="img/clef.png" alt="icone dda clave de sol" />
             <strong>Teoria Musical</strong>
             <p>
@@ -63,7 +63,7 @@
               <img src="img/arrow-right.svg" alt="Ir pra página do curso" />
             </a>
           </article>
-          <article>
+          <article class="card">
             <img src="img/sax.png" alt="icone do saxfone" />
             <strong>Sax alto</strong>
             <p>
@@ -74,7 +74,7 @@
               <img src="img/arrow-right.svg" alt="Ir pra página do curso" />
             </a>
           </article>
-          <article>
+          <article class="card">
             <img src="img/drums.png" alt="icone da bateria" />
             <strong>Bateria</strong>
             <p>
@@ -87,31 +87,36 @@
           </article>
         </div>
 
-        <h2>E <span class="text-primary">varios</span> outros!</h2>
+        <h2 class="text-center">
+          E <span class="text-primary">varios</span> outros!
+        </h2>
         <a href="#" class="button">Conhecer os cursos</a>
       </section>
     </main>
     <footer>
       <div>
-        <img src="img/logo.svg" alt="Tom1s Jazz School" />
-        <p>
+        <img src="img/logo.svg" alt="Tom1s Jazz School" class="mt-1 mb-1" />
+        <p class="mb-2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui aliquam
         </p>
       </div>
-      <nav>
+      <nav class="mb-2">
         <a href="#">Início</a>
         <a href="#">Cursos</a>
         <a href="#">Eventos</a>
         <a href="#">Contato</a>
       </nav>
-      <form action="">
-        <label for="email">Receba materiais gratuitos no seu email</label>
+      <form class="newsletter-form">
+        <label for="email" class="mb-1"
+          >Receba materiais gratuitos no seu email</label
+        >
         <input
           type="text"
           name="email"
           id="email"
           placeholder="Digite seu email"
         />
+        <button class="button mb-2">Quero receber</button>
       </form>
     </footer>
   </body>
